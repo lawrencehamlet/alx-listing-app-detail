@@ -32,4 +32,13 @@ export interface PropertyProps {
   offers: Offers;
   image: string;
   discount: string;
+  // Optional extended fields used by the property detail page
+  description?: string;
+  images?: string[];
+  reviews?: Array<{
+    name: string;
+    avatar?: string;
+    rating: number;
+    comment: string;
+  }>;
 }

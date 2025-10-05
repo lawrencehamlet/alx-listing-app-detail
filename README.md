@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # ALX Listing App
 
 ALX Listing App is a property listing platform inspired by Airbnb, built with Next.js, TypeScript, TailwindCSS, and ESLint. The goal is to provide a clean, responsive, and scalable foundation for building a modern property listing or rental application.
@@ -32,3 +33,7 @@ ALX Listing App is a property listing platform inspired by Airbnb, built with Ne
 ---
 
  
+=======
+# alx-listing-app-detail
+Milestone 3: Property Detail Page Implementation
+>>>>>>> 40aae2c999d9fb655603da0a6648b2b476f638a2

@@ -21,8 +21,14 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps[] = [
       shower: "3",
       occupants: "4-6"
     },
-    image: "https://example.com/image1.jpg",
-    discount: ""
+    image: "/assets/placeholder.jpg",
+    images: ['/assets/placeholder.jpg','/assets/placeholder.jpg','/assets/placeholder.jpg'],
+    description: 'A stunning beachfront villa with panoramic ocean views, private pool, and luxurious amenities. Perfect for families and groups looking for a relaxing getaway.',
+    reviews: [
+      { name: 'Alice Johnson', avatar: '/assets/placeholder.jpg', rating: 5, comment: 'Amazing stay! The view was incredible and the staff were very helpful.' },
+      { name: 'Mark Lee', avatar: '/assets/placeholder.jpg', rating: 4, comment: 'Great location and comfortable rooms. Pool area was superb.' }
+    ],
+    discount: ''
   },
   {
     name: "Mountain Escape Chalet",
